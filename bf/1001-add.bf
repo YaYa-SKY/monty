@@ -1,5 +1,4 @@
-
->,>,< #Getting two numbers
-[>+<-]> # Adding numbers In asscii values
-<<++++[>++++++++++<-]++[>++++<-]> # Getting zero
-[>-<-]>. # subtracting 48  the ascii sum
+>,>,<  # Getting two numbers
+[>+<-]>  # Adding numbers in ASCII values
+<<++++[>++++++++++<-]++[>++++<-]>  # Getting zero
+[>-<-]>.  # Subtracting 48 from the ASCII sum
