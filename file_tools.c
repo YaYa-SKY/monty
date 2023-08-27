@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * open_file - opens a file
- * @file_name: the file namepath
- * Return: void
+ * open_file - opens a files
+ * @file_name: the file name-path
+ * Return: void.
  */
 
 void open_file(char *file_name)
@@ -19,9 +19,9 @@ void open_file(char *file_name)
 
 
 /**
- * read_file - reads a file
- * @fd: pointer to file descriptor
- * Return: void
+ * read_file - reads a file.
+ * @fd: pointer  file descriptor
+ * Return: void.
  */
 
 void read_file(FILE *fd)
@@ -43,9 +43,9 @@ void read_file(FILE *fd)
  * which function to call
  * @buffer: line from the file
  * @line_number: line number
- * @format:  storage format. If 0 Nodes will be entered as a stack.
- * if 1 nodes will be entered as a queue.
- * Return: Returns 0 if the opcode is stack. 1 if queue.
+ * @format:  storage format. If 0 Nodes will be entered as a stack
+ * if 1 nodes will be entered as a queue
+ * Return: Returns 0 if the opcode is stack. 1 if queue
  */
 
 int parse_line(char *buffer, int line_number, int format)
